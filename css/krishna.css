@@ -1,0 +1,344 @@
+/* INDEX PAGE */
+
+/* Navbar */
+.custom-toggler.navbar-toggler {
+    border-color:rgb(21, 112, 7);
+}
+.navbar
+{
+  padding: 0 0 4.5rem 0;
+  background-color: #ffffff;
+}
+.brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 1.125rem;
+
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+
+}
+.custom-toggler.navbar-toggler-icon {
+    border-color:rgb(21, 112, 7);
+}
+/* BODY */
+.parent
+{
+  /* color: #dff0ea; */
+  margin:0;
+  text-align: center;
+  font-size: 150%;
+  background-color: #D3F6D1;
+
+}
+/* FONT COLOR */
+.h3
+{
+  color:#5C8D89;
+}
+.para
+{
+  color:grey;
+}
+
+/* HORIZONTALRULE */
+hr
+{
+  border: dotted black 6px;
+  border-bottom: none;
+  width:4%;
+  margin-left: auto;
+  margin-left: auto;
+
+}
+
+/* KD LOGO */
+.logo
+{
+    margin-bottom: 1rem;
+
+}
+
+/* PARAGRAPH */
+.msg
+{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  font-size: 1.2rem;
+}
+
+/* PROFILE IMAGE */
+.pimage
+{
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+/* Contact msg */
+.contactmsg
+{
+  width:45%;
+  margin: 40px auto 60px;
+}
+
+
+/* FOOTER */
+.bottom
+{
+  background-color: #A7D7C5;
+  color: white;
+  margin:0;
+  width: 100%;
+  padding: 50px 0 20px;
+
+
+}
+/* COROSEL IMAGE */
+.gimage
+{
+  width: 100%;
+  height: 600px;
+
+/* COROSEL PARA */
+}
+.gpara
+{
+  margin-bottom: 15%;
+}
+
+/* FOOTER IMAGE */
+.fimage
+{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+
+  .column
+   {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .lightbox
+  {
+    width: 200px;
+    height: 200px;
+  }
+
+
+
+  /* CONTACTUS PAGE */
+  .jumbotron {
+
+   color:#5C8D89;
+   border-radius: 0px;
+  }
+  .jumbotron-sm {
+    padding-top: 24px;
+  padding-bottom: 24px;
+ }
+  .jumbotron small {
+  color:#74B498;
+  }
+  .h1 small {
+  font-size: 24px;
+  }
+
+
+
+
+
+  /* PRODUctDETAILS PAGE */
+  /* card details start  */
+  @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
+  section{
+      padding: 100px 0;
+  }
+  .prodimage
+  {
+    border-radius: : 50px 0 50px 0;
+  }
+  .details-card {
+  	background:#D3F6D1;
+    padding-top: 2rem;
+  }
+
+  .card-content {
+  	background: #ffffff;
+  	border: 4px;
+  	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  }
+
+.card-img {
+  	position: relative;
+  	overflow: hidden;
+  	border-radius: 0;
+  	z-index: 1;
+  }
+
+  .card-img img {
+  	width: 100%;
+  	height: auto;
+  	display: block;
+  }
+
+  .card-img span {
+  	position: absolute;
+      top: 15%;
+      left: 12%;
+      background: #1ABC9C;
+      padding: 6px;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      transform: translate(-50%,-50%);
+  }
+  .card-img span h4{
+          font-size: 12px;
+          margin:0;
+          padding:10px 5px;
+           line-height: 0;
+  }
+  .card-desc {
+    background-color: #ECF5E2;
+  	padding: 1.25rem;
+  }
+
+  .card-desc h3 {
+  	color: #000000;
+      font-weight: 600;
+      font-size: 1.5em;
+      line-height: 1.3em;
+      margin-top: 0;
+      margin-bottom: 5px;
+      padding: 0;
+  }
+
+  .card-desc p {
+      font-size: 14px;
+  	font-weight: 400;
+  	font-size: 1em;
+  	line-height: 1.5;
+  	margin: 0px;
+  	margin-bottom: 20px;
+  	padding: 0;
+  	font-family: 'Raleway', sans-serif;
+  }
+  .btn-card{
+  	background-color: #1ABC9C;
+  	color: #fff;
+  	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      padding: .84rem 2.14rem;
+      font-size: .81rem;
+      -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+      -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+      margin: 0;
+      border: 0;
+      -webkit-border-radius: .125rem;
+      border-radius: .125rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      white-space: normal;
+      word-wrap: break-word;
+      color: #fff;
+
+  }
+  .btn-card:hover {
+      background: orange;
+  }
+  a.btn-card {
+      text-decoration: none;
+      color: #fff;
+  }
+  /* End card section */
+
+
+  /* GALLERYY */
+
+  .gallery-container {
+      text-align: center;
+      margin-top: 70px;
+      font-family: 'Droid Sans', sans-serif;
+      font-weight: bold;
+      color: #58595a;
+  }
+
+  .gallery-container .page-description {
+      text-align: center;
+      margin: 30px auto;
+      font-size: 18px;
+      color: #85878c;
+  }
+
+  .tz-gallery {
+      padding: 40px;
+  }
+
+  .tz-gallery .thumbnail {
+      padding: 0;
+      margin-bottom: 30px;
+      /* background-color:  #ECF5E2; */
+      border-radius: 4px;
+      border: none;
+      transition: 0.15s ease-in-out;
+      /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06); */
+  }
+
+  .tz-gallery .thumbnail:hover {
+      transform: translateY(-10px) scale(1.02);
+
+
+  }
+
+  .tz-gallery .lightbox {
+      border-radius: 4px 4px 0 0;
+  }
+
+  .tz-gallery .caption{
+      padding: 26px 30px;
+      text-align: center;
+  }
+
+  .tz-gallery .caption  {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 0;
+  }
+
+  .tz-gallery .caption  {
+      font-size: 12px;
+      color: #7b7d7d;
+      margin: 0;
+  }
+
+  .baguetteBox-button {
+      background-color: transparent !important;
+  }
+  .galleryimage
+  {
+    border-radius: 50px 0 50px 0;
+    height: 12.25rem;
+    width: 19.375rem;
+    margin: auto;
+
+  }
